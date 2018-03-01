@@ -1,0 +1,9 @@
+Compilation Summary: I coudln't get the project to build an an IDE, so I had to compile it via terminal with g++ -Wall.
+	The contrasts between the g++ outputs and the cppcheck outputs are as follows: g++ -Wall only gave one warning, which
+	was about control reaching the end of a non-void function, but the code ran fine; cppcheck gave 4 output warnings
+	all about style. In two instances the results reflected that the scope of a variable could be reduced, and anohter instance
+	was about a class not having a constructor. Again, the code ran fine. 
+
+Doxygen Summary: I got the doxgen output for the cppcheck apllication flawlessly, but I couldn't find the source files for Doxygen. The
+	Doxygen html output for cppcheck is very well structured, including multiple pages for the classes, files, modules, and namespaces. This is a great resource to descriptively document code in a way that is concise
+	and easy for another person to grasp. 
